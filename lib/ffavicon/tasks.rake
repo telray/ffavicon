@@ -11,7 +11,8 @@ namespace :ffavicon do
       sizes = FFavicon::SIZES
 
       from 'favicon.png' do
-        icon 'apple-touch-icon-precomposed.png', size: '180x180' #Обрезанные края 180x180
+        icon 'favicon.ico', size: '16x16'
+        icon 'apple-touch-icon-precomposed.png', size: '180x180' #TODO rounded edges 180x180
 
         sizes[:apple].each do |s|
           icon "apple-touch-icon-#{s}.png"

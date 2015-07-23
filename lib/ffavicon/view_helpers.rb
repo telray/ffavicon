@@ -4,6 +4,7 @@ module FFavicon
       sizes = FFavicon::SIZES
       tags = []
 
+      tags << favicon_link_tag("/favicon.ico")
       tags << sizes[:apple].collect do |s|
         favicon_link_tag("/apple-touch-icon-#{s}.png", size: s, rel: "apple-touch-icon")
       end
