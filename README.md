@@ -22,9 +22,9 @@ Add the following line to your Gemfile:
 ``` ruby
 <%= ffavicon_tags ms_color: '#00aba9', theme_color: '#ffffff' %>
 ```
-	ms_color - color background for 
-	[Windows 8 - Tile](http://realfavicongenerator.net/faq#windows_8_tile_colors/),
-	theme_color - color  of the task bar in the switcher Android Chrome.
+ms_color - color background for [Windows 8 - Tile](http://realfavicongenerator.net/faq#windows_8_tile_colors),
+
+theme_color - color  of the task bar in the [switcher Android Chrome](https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android).
 
   *`I recommend to use the size of 260x260 for optimal results`
 
