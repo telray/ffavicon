@@ -14,12 +14,12 @@ Add the following line to your Gemfile:
 	2. Type `rake ffavicon` in your terminal.
 	3. Your generated favicons will be output into your public directory.
 	4. Change 'name' in public/manifest.json in your app name
-	5. Add <%= ffavicon_tags %> from your layout
-	6. You can add params <%= ffavicon_tags ms_color: '#00aba9', theme_color: '#ffffff' %>.
-	ms_color - color background for Windows 8 - Tile (http://realfavicongenerator.net/faq#windows_8_tile_colors),
+	5. Add ``` ruby <%= ffavicon_tags %> ``` from your layout
+	6. You can add params ``` ruby <%= ffavicon_tags ms_color: '#00aba9', theme_color: '#ffffff' %> ```.
+	ms_color - color background for [Windows 8 - Tile](http://realfavicongenerator.net/faq#windows_8_tile_colors),
 	theme_color - color  of the task bar in the switcher Android Chrome.
 
-  *: I recommend to use the size of 260x260 for optimal results
+  *`I recommend to use the size of 260x260 for optimal results`
 
 ## License
 
