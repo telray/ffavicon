@@ -1,14 +1,14 @@
-# FFavicon Maker for Rails
+## FFavicon Maker for Rails
 Gem adds a rake task for generating favicons for all major browsers and platforms and add helper for adding all favicons to layout.
 Use of the [FaviconMaker](https://github.com/follmann/favicon_maker) library.
 
-## Install
+### Install
 
 Add the following line to your Gemfile:
 
 	  gem 'ffavicon'
 
-## Usage
+### Usage
 
 	1. Create your PNG favicon* in app/assets/images/favicon.png.
 	2. Type `rake ffavicon` in your terminal.
@@ -27,8 +27,10 @@ ms_color - color background for [Windows 8 - Tile](http://realfavicongenerator.n
 theme_color - color  of the task bar in the [switcher Android Chrome](https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android).
 
   *`I recommend to use the size of 260x260 for optimal results`
+### Roadmap
+	1. If the favicon.png doesn't exist then create the favicon for the first letter of the app name.
 
-## License
+### License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
